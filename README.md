@@ -1,6 +1,13 @@
 # tweaks
 Tweaks I've made to my stock Ubuntu OS install 
 
+# video
+
+Add support for tweaking the webcam settings
+
+```bash
+sudo apt install v4l-utils guvcview
+```
 
 # audio
 
