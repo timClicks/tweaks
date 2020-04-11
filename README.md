@@ -201,3 +201,10 @@ export WASMER_DIR="/home/tsm/.wasmer"
 [2020-03-30 12:48:18] tsm@hawk:~
 ```
 
+## extra packages
+
+```console
+sudo apt install \
+  libxml2-utils
+```
+
