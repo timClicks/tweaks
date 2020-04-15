@@ -208,3 +208,14 @@ sudo apt install \
   libxml2-utils
 ```
 
+## snaps
+
+```console
+$ sudo snap install docker
+$ sudo usermod -aG docker $USER
+```
+
+```console
+$ sudo snap install microk8s
+$ sudo usermod -aG microk8s $USER
+```
