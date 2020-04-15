@@ -213,6 +213,7 @@ sudo apt install \
 ```console
 $ sudo snap install docker
 $ sudo usermod -aG docker $USER
+$ sudo snap connect docker:home :home
 ```
 
 ```console
