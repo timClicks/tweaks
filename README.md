@@ -195,6 +195,9 @@ export PS1="[\D{%Y-%m-%d %H:%M:%S}] `whoami`@\h:\w`tput sgr0`\n$ "
 #export PS1="$ "
 #export PATH="/snap/bin:$PATH"
 
+# Rust
+RUSTC_WRAPPER=$( which sscache )
+
 # Wasmer
 export WASMER_DIR="/home/tsm/.wasmer"
 [ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
@@ -220,3 +223,9 @@ $ sudo snap connect docker:home :home
 $ sudo snap install microk8s
 $ sudo usermod -aG microk8s $USER
 ```
+
+## rust
+
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    cargo install sccache
+
