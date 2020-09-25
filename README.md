@@ -228,12 +228,14 @@ $ sudo usermod -aG microk8s $USER
 
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     cargo install sccache
+    cargo install cargo-edit
 
 ## replacement utilities
 
 See also https://twitter.com/zkat__/status/1258820886196416513/photo/1
 
 ```bash
+cargo install bat
 cargo install exa
 cargo install riggrep
 cargo install bottom
